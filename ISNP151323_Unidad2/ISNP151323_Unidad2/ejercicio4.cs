@@ -27,7 +27,7 @@ namespace ISNP151323_Unidad2 {
                 descuento = totalN * 0.35;
                 total = totalN - descuento;
                 lblTotal.Text = "Total a pagar: $" + total;
-
+            }
         }
     }
 }

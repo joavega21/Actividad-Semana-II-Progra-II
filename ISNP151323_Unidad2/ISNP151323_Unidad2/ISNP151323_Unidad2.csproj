@@ -123,6 +123,12 @@
     <EmbeddedResource Include="ejercicio4.resx">
       <DependentUpon>ejercicio4.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ejercicio5.resx">
+      <DependentUpon>ejercicio5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ejercicio7.resx">
+      <DependentUpon>ejercicio7.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
