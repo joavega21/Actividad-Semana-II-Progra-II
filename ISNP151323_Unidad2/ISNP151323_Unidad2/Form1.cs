@@ -9,9 +9,18 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace ISNP151323_Unidad2 {
-    public partial class Form1 : Form {
-        public Form1() {
+    public partial class principal : Form {
+        public principal() {
             InitializeComponent();
+        }
+
+        private void salirToolStripMenuItem_Click(object sender, EventArgs e) {
+            Close();
+        }
+
+        private void ejercicio1ToolStripMenuItem_Click(object sender, EventArgs e) {
+            ejercicio1 objEejercicio1 = new ejercicio1();
+            objEejercicio1.Show();
         }
     }
 }

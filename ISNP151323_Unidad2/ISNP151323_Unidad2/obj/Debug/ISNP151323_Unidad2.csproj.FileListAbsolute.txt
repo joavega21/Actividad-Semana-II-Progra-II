@@ -1,0 +1,11 @@
+C:\Users\jonny\source\repos\Actividad-Semana-II-Progra-II\ISNP151323_Unidad2\ISNP151323_Unidad2\bin\Debug\ISNP151323_Unidad2.exe.config
+C:\Users\jonny\source\repos\Actividad-Semana-II-Progra-II\ISNP151323_Unidad2\ISNP151323_Unidad2\bin\Debug\ISNP151323_Unidad2.exe
+C:\Users\jonny\source\repos\Actividad-Semana-II-Progra-II\ISNP151323_Unidad2\ISNP151323_Unidad2\bin\Debug\ISNP151323_Unidad2.pdb
+C:\Users\jonny\source\repos\Actividad-Semana-II-Progra-II\ISNP151323_Unidad2\ISNP151323_Unidad2\obj\Debug\ISNP151323_Unidad2.csproj.AssemblyReference.cache
+C:\Users\jonny\source\repos\Actividad-Semana-II-Progra-II\ISNP151323_Unidad2\ISNP151323_Unidad2\obj\Debug\ISNP151323_Unidad2.principal.resources
+C:\Users\jonny\source\repos\Actividad-Semana-II-Progra-II\ISNP151323_Unidad2\ISNP151323_Unidad2\obj\Debug\ISNP151323_Unidad2.Properties.Resources.resources
+C:\Users\jonny\source\repos\Actividad-Semana-II-Progra-II\ISNP151323_Unidad2\ISNP151323_Unidad2\obj\Debug\ISNP151323_Unidad2.csproj.GenerateResource.cache
+C:\Users\jonny\source\repos\Actividad-Semana-II-Progra-II\ISNP151323_Unidad2\ISNP151323_Unidad2\obj\Debug\ISNP151323_Unidad2.csproj.CoreCompileInputs.cache
+C:\Users\jonny\source\repos\Actividad-Semana-II-Progra-II\ISNP151323_Unidad2\ISNP151323_Unidad2\obj\Debug\ISNP151323_Unidad2.exe
+C:\Users\jonny\source\repos\Actividad-Semana-II-Progra-II\ISNP151323_Unidad2\ISNP151323_Unidad2\obj\Debug\ISNP151323_Unidad2.pdb
+C:\Users\jonny\source\repos\Actividad-Semana-II-Progra-II\ISNP151323_Unidad2\ISNP151323_Unidad2\obj\Debug\ISNP151323_Unidad2.ejercicio1.resources
