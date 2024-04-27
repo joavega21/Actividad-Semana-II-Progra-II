@@ -29,5 +29,9 @@ namespace ISNP151323_Unidad2 {
                 lblResultado.Text = "El resultado es: " + respuesta;
             }
         }
+
+        private void ejercicio1_Load(object sender, EventArgs e) {
+
+        }
     }
 }

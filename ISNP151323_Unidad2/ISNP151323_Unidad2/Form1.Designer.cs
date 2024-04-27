@@ -60,7 +60,7 @@ namespace ISNP151323_Unidad2 {
             this.ejerciciosToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(668, 28);
+            this.menuStrip1.Size = new System.Drawing.Size(668, 30);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -101,7 +101,7 @@ namespace ISNP151323_Unidad2 {
             this.ejercicio9ToolStripMenuItem1,
             this.ejercicio10ToolStripMenuItem1});
             this.ejerciciosToolStripMenuItem.Name = "ejerciciosToolStripMenuItem";
-            this.ejerciciosToolStripMenuItem.Size = new System.Drawing.Size(85, 24);
+            this.ejerciciosToolStripMenuItem.Size = new System.Drawing.Size(85, 26);
             this.ejerciciosToolStripMenuItem.Text = "Ejercicios";
             // 
             // ejercicio1ToolStripMenuItem
@@ -116,24 +116,28 @@ namespace ISNP151323_Unidad2 {
             this.ejercicio3ToolStripMenuItem.Name = "ejercicio3ToolStripMenuItem";
             this.ejercicio3ToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.ejercicio3ToolStripMenuItem.Text = "Ejercicio 2";
+            this.ejercicio3ToolStripMenuItem.Click += new System.EventHandler(this.ejercicio3ToolStripMenuItem_Click);
             // 
             // ejercicio5ToolStripMenuItem
             // 
             this.ejercicio5ToolStripMenuItem.Name = "ejercicio5ToolStripMenuItem";
             this.ejercicio5ToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.ejercicio5ToolStripMenuItem.Text = "Ejercicio 3";
+            this.ejercicio5ToolStripMenuItem.Click += new System.EventHandler(this.ejercicio5ToolStripMenuItem_Click);
             // 
             // ejercicio7ToolStripMenuItem
             // 
             this.ejercicio7ToolStripMenuItem.Name = "ejercicio7ToolStripMenuItem";
             this.ejercicio7ToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.ejercicio7ToolStripMenuItem.Text = "Ejercicio 4";
+            this.ejercicio7ToolStripMenuItem.Click += new System.EventHandler(this.ejercicio7ToolStripMenuItem_Click);
             // 
             // ejercicio9ToolStripMenuItem
             // 
             this.ejercicio9ToolStripMenuItem.Name = "ejercicio9ToolStripMenuItem";
             this.ejercicio9ToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.ejercicio9ToolStripMenuItem.Text = "Ejercicio 5";
+            this.ejercicio9ToolStripMenuItem.Click += new System.EventHandler(this.ejercicio9ToolStripMenuItem_Click);
             // 
             // ejercicio2ToolStripMenuItem
             // 
@@ -165,6 +169,7 @@ namespace ISNP151323_Unidad2 {
             this.ejercicio6ToolStripMenuItem1.Name = "ejercicio6ToolStripMenuItem1";
             this.ejercicio6ToolStripMenuItem1.Size = new System.Drawing.Size(224, 26);
             this.ejercicio6ToolStripMenuItem1.Text = "Ejercicio 6";
+            this.ejercicio6ToolStripMenuItem1.Click += new System.EventHandler(this.ejercicio6ToolStripMenuItem1_Click);
             // 
             // toolStripMenuItem1
             // 
@@ -176,6 +181,7 @@ namespace ISNP151323_Unidad2 {
             this.ejercicio7ToolStripMenuItem1.Name = "ejercicio7ToolStripMenuItem1";
             this.ejercicio7ToolStripMenuItem1.Size = new System.Drawing.Size(224, 26);
             this.ejercicio7ToolStripMenuItem1.Text = "Ejercicio 7";
+            this.ejercicio7ToolStripMenuItem1.Click += new System.EventHandler(this.ejercicio7ToolStripMenuItem1_Click);
             // 
             // toolStripMenuItem2
             // 
@@ -187,6 +193,7 @@ namespace ISNP151323_Unidad2 {
             this.ejercicio8ToolStripMenuItem1.Name = "ejercicio8ToolStripMenuItem1";
             this.ejercicio8ToolStripMenuItem1.Size = new System.Drawing.Size(224, 26);
             this.ejercicio8ToolStripMenuItem1.Text = "Ejercicio 8";
+            this.ejercicio8ToolStripMenuItem1.Click += new System.EventHandler(this.ejercicio8ToolStripMenuItem1_Click);
             // 
             // toolStripMenuItem3
             // 
@@ -198,12 +205,14 @@ namespace ISNP151323_Unidad2 {
             this.ejercicio9ToolStripMenuItem1.Name = "ejercicio9ToolStripMenuItem1";
             this.ejercicio9ToolStripMenuItem1.Size = new System.Drawing.Size(224, 26);
             this.ejercicio9ToolStripMenuItem1.Text = "Ejercicio 9";
+            this.ejercicio9ToolStripMenuItem1.Click += new System.EventHandler(this.ejercicio9ToolStripMenuItem1_Click);
             // 
             // ejercicio10ToolStripMenuItem1
             // 
             this.ejercicio10ToolStripMenuItem1.Name = "ejercicio10ToolStripMenuItem1";
             this.ejercicio10ToolStripMenuItem1.Size = new System.Drawing.Size(224, 26);
             this.ejercicio10ToolStripMenuItem1.Text = "Ejercicio 10";
+            this.ejercicio10ToolStripMenuItem1.Click += new System.EventHandler(this.ejercicio10ToolStripMenuItem1_Click);
             // 
             // label1
             // 
