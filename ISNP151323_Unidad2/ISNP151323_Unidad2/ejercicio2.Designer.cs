@@ -24,138 +24,130 @@ namespace ISNP151323_Unidad2 {
         /// the contents of this method with the code editor.
         /// </summary>
         private void InitializeComponent() {
-            this.label1 = new System.Windows.Forms.Label();
+            this.lblSaludo = new System.Windows.Forms.Label();
             this.lblDe = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.cboDe = new System.Windows.Forms.ComboBox();
-            this.cboA = new System.Windows.Forms.ComboBox();
-            this.cboTipo = new System.Windows.Forms.ComboBox();
-            this.lblTipo = new System.Windows.Forms.Label();
-            this.lblCantidad = new System.Windows.Forms.Label();
-            this.txtCantidad = new System.Windows.Forms.TextBox();
-            this.btnConvertir = new System.Windows.Forms.Button();
+            this.lblA = new System.Windows.Forms.Label();
+            this.lblValor = new System.Windows.Forms.Label();
+            this.cmbDe = new System.Windows.Forms.ComboBox();
+            this.cmbA = new System.Windows.Forms.ComboBox();
+            this.txtValor = new System.Windows.Forms.TextBox();
             this.lblRespuesta = new System.Windows.Forms.Label();
+            this.btnConvertir = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // label1
+            // lblSaludo
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(238, 24);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(229, 17);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Conversor de unidades de longitud";
+            this.lblSaludo.AutoSize = true;
+            this.lblSaludo.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSaludo.Location = new System.Drawing.Point(99, 35);
+            this.lblSaludo.Name = "lblSaludo";
+            this.lblSaludo.Size = new System.Drawing.Size(313, 23);
+            this.lblSaludo.TabIndex = 0;
+            this.lblSaludo.Text = "Conversor de unidades de longitud";
             // 
             // lblDe
             // 
             this.lblDe.AutoSize = true;
-            this.lblDe.Location = new System.Drawing.Point(71, 160);
+            this.lblDe.Font = new System.Drawing.Font("Arial", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDe.Location = new System.Drawing.Point(21, 129);
             this.lblDe.Name = "lblDe";
-            this.lblDe.Size = new System.Drawing.Size(34, 17);
+            this.lblDe.Size = new System.Drawing.Size(45, 22);
             this.lblDe.TabIndex = 1;
             this.lblDe.Text = "De: ";
             // 
-            // label3
+            // lblA
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(71, 205);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(25, 17);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "A: ";
+            this.lblA.AutoSize = true;
+            this.lblA.Font = new System.Drawing.Font("Arial", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblA.Location = new System.Drawing.Point(21, 209);
+            this.lblA.Name = "lblA";
+            this.lblA.Size = new System.Drawing.Size(33, 22);
+            this.lblA.TabIndex = 2;
+            this.lblA.Text = "A: ";
             // 
-            // cboDe
+            // lblValor
             // 
-            this.cboDe.FormattingEnabled = true;
-            this.cboDe.Location = new System.Drawing.Point(135, 157);
-            this.cboDe.Name = "cboDe";
-            this.cboDe.Size = new System.Drawing.Size(121, 24);
-            this.cboDe.TabIndex = 3;
+            this.lblValor.AutoSize = true;
+            this.lblValor.Font = new System.Drawing.Font("Arial", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblValor.Location = new System.Drawing.Point(278, 165);
+            this.lblValor.Name = "lblValor";
+            this.lblValor.Size = new System.Drawing.Size(63, 22);
+            this.lblValor.TabIndex = 3;
+            this.lblValor.Text = "Valor: ";
             // 
-            // cboA
+            // cmbDe
             // 
-            this.cboA.FormattingEnabled = true;
-            this.cboA.Location = new System.Drawing.Point(135, 202);
-            this.cboA.Name = "cboA";
-            this.cboA.Size = new System.Drawing.Size(121, 24);
-            this.cboA.TabIndex = 4;
+            this.cmbDe.Font = new System.Drawing.Font("Arial", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmbDe.FormattingEnabled = true;
+            this.cmbDe.Items.AddRange(new object[] {
+            "Metros",
+            "Yardas",
+            "Centimetros",
+            "Milimetros"});
+            this.cmbDe.Location = new System.Drawing.Point(67, 126);
+            this.cmbDe.Name = "cmbDe";
+            this.cmbDe.Size = new System.Drawing.Size(173, 29);
+            this.cmbDe.TabIndex = 4;
             // 
-            // cboTipo
+            // cmbA
             // 
-            this.cboTipo.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cboTipo.FormattingEnabled = true;
-            this.cboTipo.Items.AddRange(new object[] {
-            "Masa",
-            "Longitud"});
-            this.cboTipo.Location = new System.Drawing.Point(135, 107);
-            this.cboTipo.Name = "cboTipo";
-            this.cboTipo.Size = new System.Drawing.Size(121, 24);
-            this.cboTipo.TabIndex = 6;
-            this.cboTipo.Click += new System.EventHandler(this.cboTipo_Click);
+            this.cmbA.Font = new System.Drawing.Font("Arial", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmbA.FormattingEnabled = true;
+            this.cmbA.Items.AddRange(new object[] {
+            "Metros",
+            "Yardas",
+            "Centimetros",
+            "Milimetros"});
+            this.cmbA.Location = new System.Drawing.Point(67, 206);
+            this.cmbA.Name = "cmbA";
+            this.cmbA.Size = new System.Drawing.Size(173, 29);
+            this.cmbA.TabIndex = 5;
             // 
-            // lblTipo
+            // txtValor
             // 
-            this.lblTipo.AutoSize = true;
-            this.lblTipo.Location = new System.Drawing.Point(71, 110);
-            this.lblTipo.Name = "lblTipo";
-            this.lblTipo.Size = new System.Drawing.Size(44, 17);
-            this.lblTipo.TabIndex = 5;
-            this.lblTipo.Text = "Tipo: ";
-            // 
-            // lblCantidad
-            // 
-            this.lblCantidad.AutoSize = true;
-            this.lblCantidad.Location = new System.Drawing.Point(71, 260);
-            this.lblCantidad.Name = "lblCantidad";
-            this.lblCantidad.Size = new System.Drawing.Size(72, 17);
-            this.lblCantidad.TabIndex = 7;
-            this.lblCantidad.Text = "Cantidad: ";
-            // 
-            // txtCantidad
-            // 
-            this.txtCantidad.Location = new System.Drawing.Point(149, 255);
-            this.txtCantidad.Name = "txtCantidad";
-            this.txtCantidad.Size = new System.Drawing.Size(121, 22);
-            this.txtCantidad.TabIndex = 8;
-            // 
-            // btnConvertir
-            // 
-            this.btnConvertir.Location = new System.Drawing.Point(482, 107);
-            this.btnConvertir.Name = "btnConvertir";
-            this.btnConvertir.Size = new System.Drawing.Size(97, 60);
-            this.btnConvertir.TabIndex = 9;
-            this.btnConvertir.Text = "Convertir";
-            this.btnConvertir.UseVisualStyleBackColor = true;
-            this.btnConvertir.Click += new System.EventHandler(this.btnConvertir_Click);
+            this.txtValor.Font = new System.Drawing.Font("Arial", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtValor.Location = new System.Drawing.Point(347, 162);
+            this.txtValor.Name = "txtValor";
+            this.txtValor.Size = new System.Drawing.Size(168, 28);
+            this.txtValor.TabIndex = 6;
             // 
             // lblRespuesta
             // 
             this.lblRespuesta.AutoSize = true;
-            this.lblRespuesta.Location = new System.Drawing.Point(407, 235);
+            this.lblRespuesta.Font = new System.Drawing.Font("Arial", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblRespuesta.Location = new System.Drawing.Point(99, 331);
             this.lblRespuesta.Name = "lblRespuesta";
-            this.lblRespuesta.Size = new System.Drawing.Size(84, 17);
-            this.lblRespuesta.TabIndex = 10;
+            this.lblRespuesta.Size = new System.Drawing.Size(112, 22);
+            this.lblRespuesta.TabIndex = 7;
             this.lblRespuesta.Text = "Respuesta: ";
+            // 
+            // btnConvertir
+            // 
+            this.btnConvertir.Font = new System.Drawing.Font("Arial", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnConvertir.Location = new System.Drawing.Point(184, 258);
+            this.btnConvertir.Name = "btnConvertir";
+            this.btnConvertir.Size = new System.Drawing.Size(136, 41);
+            this.btnConvertir.TabIndex = 8;
+            this.btnConvertir.Text = "Convertir";
+            this.btnConvertir.UseVisualStyleBackColor = true;
+            this.btnConvertir.Click += new System.EventHandler(this.btnConvertir_Click);
             // 
             // ejercicio2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 474);
-            this.Controls.Add(this.lblRespuesta);
+            this.ClientSize = new System.Drawing.Size(540, 391);
             this.Controls.Add(this.btnConvertir);
-            this.Controls.Add(this.txtCantidad);
-            this.Controls.Add(this.lblCantidad);
-            this.Controls.Add(this.cboTipo);
-            this.Controls.Add(this.lblTipo);
-            this.Controls.Add(this.cboA);
-            this.Controls.Add(this.cboDe);
-            this.Controls.Add(this.label3);
+            this.Controls.Add(this.lblRespuesta);
+            this.Controls.Add(this.txtValor);
+            this.Controls.Add(this.cmbA);
+            this.Controls.Add(this.cmbDe);
+            this.Controls.Add(this.lblValor);
+            this.Controls.Add(this.lblA);
             this.Controls.Add(this.lblDe);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.lblSaludo);
             this.Name = "ejercicio2";
             this.Text = "ejercicio2";
-            this.Load += new System.EventHandler(this.ejercicio2_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -163,16 +155,14 @@ namespace ISNP151323_Unidad2 {
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lblSaludo;
         private System.Windows.Forms.Label lblDe;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.ComboBox cboDe;
-        private System.Windows.Forms.ComboBox cboA;
-        private System.Windows.Forms.ComboBox cboTipo;
-        private System.Windows.Forms.Label lblTipo;
-        private System.Windows.Forms.Label lblCantidad;
-        private System.Windows.Forms.TextBox txtCantidad;
-        private System.Windows.Forms.Button btnConvertir;
+        private System.Windows.Forms.Label lblA;
+        private System.Windows.Forms.Label lblValor;
+        private System.Windows.Forms.ComboBox cmbDe;
+        private System.Windows.Forms.ComboBox cmbA;
+        private System.Windows.Forms.TextBox txtValor;
         private System.Windows.Forms.Label lblRespuesta;
+        private System.Windows.Forms.Button btnConvertir;
     }
 }

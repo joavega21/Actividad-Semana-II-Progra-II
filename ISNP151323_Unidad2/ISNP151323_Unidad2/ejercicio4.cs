@@ -29,5 +29,9 @@ namespace ISNP151323_Unidad2 {
                 lblTotal.Text = "Total a pagar: $" + total;
             }
         }
+
+        private void ejercicio4_Load(object sender, EventArgs e) {
+
+        }
     }
 }

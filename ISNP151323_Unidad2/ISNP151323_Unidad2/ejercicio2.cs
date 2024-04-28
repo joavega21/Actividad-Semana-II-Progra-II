@@ -10,48 +10,76 @@ using System.Windows.Forms;
 
 namespace ISNP151323_Unidad2 {
     public partial class ejercicio2 : Form {
-        convertir objConversor = new convertir();
         public ejercicio2() {
             InitializeComponent();
         }
 
-        private void ejercicio2_Load(object sender, EventArgs e) {
-            cboTipo.SelectedIndex = 0;
-            AsignarEtiquetas();
-        }
-
         private void btnConvertir_Click(object sender, EventArgs e) {
-            int opcion = cboTipo.SelectedIndex,
-                de = cboDe.SelectedIndex,
-                a = cboA.SelectedIndex;
-            double cantidad = Double.Parse(txtCantidad.Text);
-
-            lblRespuesta.Text = "Respuesta: " + objConversor.convertirValores(opcion, de, a, cantidad);
-        }
-
-        private void cboTipo_Click(object sender, EventArgs e) {
-            AsignarEtiquetas();
-        }
-        private void AsignarEtiquetas() {
-            cboDe.Items.Clear();
-            cboA.Items.Clear();
-            cboDe.Items.AddRange(objConversor.etiquetas[cboTipo.SelectedIndex]);
-            cboA.Items.AddRange(objConversor.etiquetas[cboTipo.SelectedIndex]);
-        }
-    }
-    class convertir {
-        public String[][] etiquetas = new string[][] {
-            new string[]{"Libras","Kilogramos"},
-            new string[]{"Metros","Yarda", "Centimetro", "Milimetro"}
-            
-        };
-        Double[][] valores = new Double[][] {
-            new double[]{1, 2.20462},
-            new double[]{1, 1.09361, 100, 1000}
-            
-        };
-        public Double convertirValores(int opcion, int de, int a, double cantidad) {
-            return valores[opcion][de] / valores[opcion][a] * cantidad;
+            if (cmbDe.SelectedItem.ToString() == "Metros" && cmbA.SelectedItem.ToString() == "Metros") {
+                double conversion;
+                conversion = double.Parse(txtValor.Text) * 1;
+                lblRespuesta.Text = "Respuesta: " + Math.Round(conversion,4);
+            } else if (cmbDe.SelectedItem.ToString() == "Metros" && cmbA.SelectedItem.ToString() == "Yardas") {
+                double conversion;
+                conversion = double.Parse(txtValor.Text) * 1.09361;
+                lblRespuesta.Text = "Respuesta: " + Math.Round(conversion,4);
+            } else if (cmbDe.SelectedItem.ToString() == "Metros" && cmbA.SelectedItem.ToString() == "Centimetros") {
+                double conversion;
+                conversion = double.Parse(txtValor.Text) * 100;
+                lblRespuesta.Text = "Respuesta: " + Math.Round(conversion, 4);
+            } else if (cmbDe.SelectedItem.ToString() == "Metros" && cmbA.SelectedItem.ToString() == "Milimetros") {
+                double conversion;
+                conversion = double.Parse(txtValor.Text) * 1000;
+                lblRespuesta.Text = "Respuesta: " + Math.Round(conversion, 4);
+            } else if (cmbDe.SelectedItem.ToString() == "Yardas" && cmbA.SelectedItem.ToString() == "Yardas") {
+                double conversion;
+                conversion = double.Parse(txtValor.Text) * 1;
+                lblRespuesta.Text = "Respuesta: " + Math.Round(conversion, 4);
+            } else if (cmbDe.SelectedItem.ToString() == "Yardas" && cmbA.SelectedItem.ToString() == "Metros") {
+                double conversion;
+                conversion = double.Parse(txtValor.Text) * 0.9144;
+                lblRespuesta.Text = "Respuesta: " + Math.Round(conversion, 4);
+            } else if (cmbDe.SelectedItem.ToString() == "Yardas" && cmbA.SelectedItem.ToString() == "Centimetros") {
+                double conversion;
+                conversion = double.Parse(txtValor.Text) * 91.44;
+                lblRespuesta.Text = "Respuesta: " + Math.Round(conversion, 4);
+            } else if (cmbDe.SelectedItem.ToString() == "Yardas" && cmbA.SelectedItem.ToString() == "Milimetros") {
+                double conversion;
+                conversion = double.Parse(txtValor.Text) * 914.4;
+                lblRespuesta.Text = "Respuesta: " + Math.Round(conversion, 4);
+            } else if (cmbDe.SelectedItem.ToString() == "Centimetros" && cmbA.SelectedItem.ToString() == "Centimetros") {
+                double conversion;
+                conversion = double.Parse(txtValor.Text) * 1;
+                lblRespuesta.Text = "Respuesta: " + Math.Round(conversion, 4);
+            } else if (cmbDe.SelectedItem.ToString() == "Centimetros" && cmbA.SelectedItem.ToString() == "Metros") {
+                double conversion;
+                conversion = double.Parse(txtValor.Text) * 0.01;
+                lblRespuesta.Text = "Respuesta: " + Math.Round(conversion, 4);
+            } else if (cmbDe.SelectedItem.ToString() == "Centimetros" && cmbA.SelectedItem.ToString() == "Yardas") {
+                double conversion;
+                conversion = double.Parse(txtValor.Text) * 0.0109361;
+                lblRespuesta.Text = "Respuesta: " + Math.Round(conversion, 4);
+            } else if (cmbDe.SelectedItem.ToString() == "Centimetros" && cmbA.SelectedItem.ToString() == "Milimetros") {
+                double conversion;
+                conversion = double.Parse(txtValor.Text) * 10;
+                lblRespuesta.Text = "Respuesta: " + Math.Round(conversion, 4);
+            } else if (cmbDe.SelectedItem.ToString() == "Milimetros" && cmbA.SelectedItem.ToString() == "Milimetros") {
+                double conversion;
+                conversion = double.Parse(txtValor.Text) * 1;
+                lblRespuesta.Text = "Respuesta: " + Math.Round(conversion, 4);
+            } else if (cmbDe.SelectedItem.ToString() == "Milimetros" && cmbA.SelectedItem.ToString() == "Metros") {
+                double conversion;
+                conversion = double.Parse(txtValor.Text) * 0.001;
+                lblRespuesta.Text = "Respuesta: " + Math.Round(conversion, 4);
+            } else if (cmbDe.SelectedItem.ToString() == "Milimetros" && cmbA.SelectedItem.ToString() == "Yardas") {
+                double conversion;
+                conversion = double.Parse(txtValor.Text) * 0.00109361;
+                lblRespuesta.Text = "Respuesta: " + Math.Round(conversion, 4);
+            } else if (cmbDe.SelectedItem.ToString() == "Milimetros" && cmbA.SelectedItem.ToString() == "Centimetros") {
+                double conversion;
+                conversion = double.Parse(txtValor.Text) * 0.1;
+                lblRespuesta.Text = "Respuesta: " + Math.Round(conversion, 4);
+            }
         }
     }
 }
