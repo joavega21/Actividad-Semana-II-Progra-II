@@ -81,5 +81,9 @@ namespace ISNP151323_Unidad2 {
                 lblRespuesta.Text = "Respuesta: " + Math.Round(conversion, 4);
             }
         }
+
+        private void ejercicio2_Load(object sender, EventArgs e) {
+
+        }
     }
 }

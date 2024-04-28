@@ -47,5 +47,9 @@ namespace ISNP151323_Unidad2 {
                 lblRespuesta.Text = "El numero mayor es: " + n10;
             }
         }
+
+        private void ejercicio9_Load(object sender, EventArgs e) {
+
+        }
     }
 }

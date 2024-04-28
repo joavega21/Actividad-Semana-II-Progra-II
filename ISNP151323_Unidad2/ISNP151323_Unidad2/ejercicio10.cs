@@ -23,5 +23,9 @@ namespace ISNP151323_Unidad2 {
                 MessageBox.Show("Acceso denegado");
             }
         }
+
+        private void ejercicio10_Load(object sender, EventArgs e) {
+
+        }
     }
 }

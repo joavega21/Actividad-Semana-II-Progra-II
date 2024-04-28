@@ -67,5 +67,9 @@ namespace ISNP151323_Unidad2 {
             ejercicio10 objEejercicio10 = new ejercicio10();
             objEejercicio10.Show();
         }
+
+        private void principal_Load(object sender, EventArgs e) {
+
+        }
     }
 }

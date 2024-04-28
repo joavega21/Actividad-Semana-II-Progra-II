@@ -34,5 +34,9 @@ namespace ISNP151323_Unidad2 {
             }
 
         }
+
+        private void ejercicio6_Load(object sender, EventArgs e) {
+
+        }
     }
 }

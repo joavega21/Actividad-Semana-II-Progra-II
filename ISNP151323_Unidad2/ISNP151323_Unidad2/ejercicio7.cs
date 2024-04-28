@@ -23,5 +23,9 @@ namespace ISNP151323_Unidad2 {
             }
             lblResultado.Text = "El resultado de la suma es: " + suma;
         }
+
+        private void ejercicio7_Load(object sender, EventArgs e) {
+
+        }
     }
 }

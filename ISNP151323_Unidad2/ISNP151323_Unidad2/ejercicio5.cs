@@ -45,5 +45,9 @@ namespace ISNP151323_Unidad2 {
             txtPar2.Clear();
             txtPar3.Clear();
         }
+
+        private void ejercicio5_Load(object sender, EventArgs e) {
+
+        }
     }
 }

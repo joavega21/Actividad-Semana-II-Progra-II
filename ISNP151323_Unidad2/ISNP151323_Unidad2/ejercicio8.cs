@@ -28,5 +28,9 @@ namespace ISNP151323_Unidad2 {
                 i++;
             } while (i <= 10);
         }
+
+        private void ejercicio8_Load(object sender, EventArgs e) {
+
+        }
     }
 }

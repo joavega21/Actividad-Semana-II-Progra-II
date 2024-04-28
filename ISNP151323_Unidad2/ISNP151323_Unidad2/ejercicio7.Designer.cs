@@ -82,6 +82,7 @@ namespace ISNP151323_Unidad2 {
             this.Controls.Add(this.lblSaludo);
             this.Name = "ejercicio7";
             this.Text = "ejercicio7";
+            this.Load += new System.EventHandler(this.ejercicio7_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
