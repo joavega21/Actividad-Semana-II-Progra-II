@@ -16,3 +16,5 @@ C:\Users\jonny\source\repos\Actividad-Semana-II-Progra-II\ISNP151323_Unidad2\ISN
 C:\Users\jonny\source\repos\Actividad-Semana-II-Progra-II\ISNP151323_Unidad2\ISNP151323_Unidad2\obj\Debug\ISNP151323_Unidad2.ejercicio8.resources
 C:\Users\jonny\source\repos\Actividad-Semana-II-Progra-II\ISNP151323_Unidad2\ISNP151323_Unidad2\obj\Debug\ISNP151323_Unidad2.ejercicio3.resources
 C:\Users\jonny\source\repos\Actividad-Semana-II-Progra-II\ISNP151323_Unidad2\ISNP151323_Unidad2\obj\Debug\ISNP151323_Unidad2.ejercicio10.resources
+C:\Users\jonny\source\repos\Actividad-Semana-II-Progra-II\ISNP151323_Unidad2\ISNP151323_Unidad2\obj\Debug\ISNP151323_Unidad2.ejercicio6.resources
+C:\Users\jonny\source\repos\Actividad-Semana-II-Progra-II\ISNP151323_Unidad2\ISNP151323_Unidad2\obj\Debug\ISNP151323_Unidad2.ejercicio9.resources

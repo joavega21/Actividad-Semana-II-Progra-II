@@ -63,7 +63,7 @@ namespace ISNP151323_Unidad2 {
             objEejercicio9.Show();
         }
 
-        private void ejercicio10ToolStripMenuItem1_Click(object sender, EventArgs e) {
+        private void ejercicio10ToolStripMenuItem2_Click(object sender, EventArgs e) {
             ejercicio10 objEejercicio10 = new ejercicio10();
             objEejercicio10.Show();
         }

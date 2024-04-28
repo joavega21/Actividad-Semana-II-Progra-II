@@ -29,14 +29,14 @@ namespace ISNP151323_Unidad2 {
             this.salirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ejerciciosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ejercicio1ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.ejercicio3ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.ejercicio5ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.ejercicio7ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.ejercicio9ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ejercicio2ToolStripMenuItem = new System.Windows.Forms.ToolStripSeparator();
+            this.ejercicio3ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ejercicio4ToolStripMenuItem = new System.Windows.Forms.ToolStripSeparator();
+            this.ejercicio5ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ejercicio6ToolStripMenuItem = new System.Windows.Forms.ToolStripSeparator();
+            this.ejercicio7ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ejercicio8ToolStripMenuItem = new System.Windows.Forms.ToolStripSeparator();
+            this.ejercicio9ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ejercicio10ToolStripMenuItem = new System.Windows.Forms.ToolStripSeparator();
             this.ejercicio6ToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripSeparator();
@@ -45,10 +45,11 @@ namespace ISNP151323_Unidad2 {
             this.ejercicio8ToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem3 = new System.Windows.Forms.ToolStripSeparator();
             this.ejercicio9ToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.ejercicio10ToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
+            this.ejercicio10ToolStripMenuItem1 = new System.Windows.Forms.ToolStripSeparator();
+            this.ejercicio10ToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -60,7 +61,7 @@ namespace ISNP151323_Unidad2 {
             this.ejerciciosToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(668, 30);
+            this.menuStrip1.Size = new System.Drawing.Size(668, 28);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -75,7 +76,7 @@ namespace ISNP151323_Unidad2 {
             // salirToolStripMenuItem
             // 
             this.salirToolStripMenuItem.Name = "salirToolStripMenuItem";
-            this.salirToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.salirToolStripMenuItem.Size = new System.Drawing.Size(121, 26);
             this.salirToolStripMenuItem.Text = "Salir";
             this.salirToolStripMenuItem.Click += new System.EventHandler(this.salirToolStripMenuItem_Click);
             // 
@@ -99,9 +100,10 @@ namespace ISNP151323_Unidad2 {
             this.ejercicio8ToolStripMenuItem1,
             this.toolStripMenuItem3,
             this.ejercicio9ToolStripMenuItem1,
-            this.ejercicio10ToolStripMenuItem1});
+            this.ejercicio10ToolStripMenuItem1,
+            this.ejercicio10ToolStripMenuItem2});
             this.ejerciciosToolStripMenuItem.Name = "ejerciciosToolStripMenuItem";
-            this.ejerciciosToolStripMenuItem.Size = new System.Drawing.Size(85, 26);
+            this.ejerciciosToolStripMenuItem.Size = new System.Drawing.Size(85, 24);
             this.ejerciciosToolStripMenuItem.Text = "Ejercicios";
             // 
             // ejercicio1ToolStripMenuItem
@@ -111,12 +113,22 @@ namespace ISNP151323_Unidad2 {
             this.ejercicio1ToolStripMenuItem.Text = "Ejercicio 1";
             this.ejercicio1ToolStripMenuItem.Click += new System.EventHandler(this.ejercicio1ToolStripMenuItem_Click);
             // 
+            // ejercicio2ToolStripMenuItem
+            // 
+            this.ejercicio2ToolStripMenuItem.Name = "ejercicio2ToolStripMenuItem";
+            this.ejercicio2ToolStripMenuItem.Size = new System.Drawing.Size(221, 6);
+            // 
             // ejercicio3ToolStripMenuItem
             // 
             this.ejercicio3ToolStripMenuItem.Name = "ejercicio3ToolStripMenuItem";
             this.ejercicio3ToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.ejercicio3ToolStripMenuItem.Text = "Ejercicio 2";
             this.ejercicio3ToolStripMenuItem.Click += new System.EventHandler(this.ejercicio3ToolStripMenuItem_Click);
+            // 
+            // ejercicio4ToolStripMenuItem
+            // 
+            this.ejercicio4ToolStripMenuItem.Name = "ejercicio4ToolStripMenuItem";
+            this.ejercicio4ToolStripMenuItem.Size = new System.Drawing.Size(221, 6);
             // 
             // ejercicio5ToolStripMenuItem
             // 
@@ -125,6 +137,11 @@ namespace ISNP151323_Unidad2 {
             this.ejercicio5ToolStripMenuItem.Text = "Ejercicio 3";
             this.ejercicio5ToolStripMenuItem.Click += new System.EventHandler(this.ejercicio5ToolStripMenuItem_Click);
             // 
+            // ejercicio6ToolStripMenuItem
+            // 
+            this.ejercicio6ToolStripMenuItem.Name = "ejercicio6ToolStripMenuItem";
+            this.ejercicio6ToolStripMenuItem.Size = new System.Drawing.Size(221, 6);
+            // 
             // ejercicio7ToolStripMenuItem
             // 
             this.ejercicio7ToolStripMenuItem.Name = "ejercicio7ToolStripMenuItem";
@@ -132,32 +149,17 @@ namespace ISNP151323_Unidad2 {
             this.ejercicio7ToolStripMenuItem.Text = "Ejercicio 4";
             this.ejercicio7ToolStripMenuItem.Click += new System.EventHandler(this.ejercicio7ToolStripMenuItem_Click);
             // 
+            // ejercicio8ToolStripMenuItem
+            // 
+            this.ejercicio8ToolStripMenuItem.Name = "ejercicio8ToolStripMenuItem";
+            this.ejercicio8ToolStripMenuItem.Size = new System.Drawing.Size(221, 6);
+            // 
             // ejercicio9ToolStripMenuItem
             // 
             this.ejercicio9ToolStripMenuItem.Name = "ejercicio9ToolStripMenuItem";
             this.ejercicio9ToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.ejercicio9ToolStripMenuItem.Text = "Ejercicio 5";
             this.ejercicio9ToolStripMenuItem.Click += new System.EventHandler(this.ejercicio9ToolStripMenuItem_Click);
-            // 
-            // ejercicio2ToolStripMenuItem
-            // 
-            this.ejercicio2ToolStripMenuItem.Name = "ejercicio2ToolStripMenuItem";
-            this.ejercicio2ToolStripMenuItem.Size = new System.Drawing.Size(221, 6);
-            // 
-            // ejercicio4ToolStripMenuItem
-            // 
-            this.ejercicio4ToolStripMenuItem.Name = "ejercicio4ToolStripMenuItem";
-            this.ejercicio4ToolStripMenuItem.Size = new System.Drawing.Size(221, 6);
-            // 
-            // ejercicio6ToolStripMenuItem
-            // 
-            this.ejercicio6ToolStripMenuItem.Name = "ejercicio6ToolStripMenuItem";
-            this.ejercicio6ToolStripMenuItem.Size = new System.Drawing.Size(221, 6);
-            // 
-            // ejercicio8ToolStripMenuItem
-            // 
-            this.ejercicio8ToolStripMenuItem.Name = "ejercicio8ToolStripMenuItem";
-            this.ejercicio8ToolStripMenuItem.Size = new System.Drawing.Size(221, 6);
             // 
             // ejercicio10ToolStripMenuItem
             // 
@@ -207,13 +209,6 @@ namespace ISNP151323_Unidad2 {
             this.ejercicio9ToolStripMenuItem1.Text = "Ejercicio 9";
             this.ejercicio9ToolStripMenuItem1.Click += new System.EventHandler(this.ejercicio9ToolStripMenuItem1_Click);
             // 
-            // ejercicio10ToolStripMenuItem1
-            // 
-            this.ejercicio10ToolStripMenuItem1.Name = "ejercicio10ToolStripMenuItem1";
-            this.ejercicio10ToolStripMenuItem1.Size = new System.Drawing.Size(224, 26);
-            this.ejercicio10ToolStripMenuItem1.Text = "Ejercicio 10";
-            this.ejercicio10ToolStripMenuItem1.Click += new System.EventHandler(this.ejercicio10ToolStripMenuItem1_Click);
-            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -243,6 +238,18 @@ namespace ISNP151323_Unidad2 {
             this.label3.Size = new System.Drawing.Size(425, 23);
             this.label3.TabIndex = 4;
             this.label3.Text = "Favor seleccione un ejercicio que desee revisar";
+            // 
+            // ejercicio10ToolStripMenuItem1
+            // 
+            this.ejercicio10ToolStripMenuItem1.Name = "ejercicio10ToolStripMenuItem1";
+            this.ejercicio10ToolStripMenuItem1.Size = new System.Drawing.Size(221, 6);
+            // 
+            // ejercicio10ToolStripMenuItem2
+            // 
+            this.ejercicio10ToolStripMenuItem2.Name = "ejercicio10ToolStripMenuItem2";
+            this.ejercicio10ToolStripMenuItem2.Size = new System.Drawing.Size(224, 26);
+            this.ejercicio10ToolStripMenuItem2.Text = "Ejercicio 10";
+            this.ejercicio10ToolStripMenuItem2.Click += new System.EventHandler(this.ejercicio10ToolStripMenuItem2_Click);
             // 
             // principal
             // 
@@ -287,10 +294,11 @@ namespace ISNP151323_Unidad2 {
         private System.Windows.Forms.ToolStripMenuItem ejercicio8ToolStripMenuItem1;
         private System.Windows.Forms.ToolStripSeparator toolStripMenuItem3;
         private System.Windows.Forms.ToolStripMenuItem ejercicio9ToolStripMenuItem1;
-        private System.Windows.Forms.ToolStripMenuItem ejercicio10ToolStripMenuItem1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.ToolStripSeparator ejercicio10ToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem ejercicio10ToolStripMenuItem2;
     }
 }
 
